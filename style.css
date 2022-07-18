@@ -1,0 +1,57 @@
+#container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+#headerContainer{
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#leftHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+#rightHeader,#rightIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+ #postContainer{
+    width: 800px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+ #iconsContainer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+ }
+ #leftIcons{
+    margin-left: 5px;
+ }
+ #textContainer{
+    background-color: white;
+    padding: 5px;
+ }
+
+ #titleText{
+    font-weight: bold;
+ }
+
+ #containerTitle{
+    margin-left: 5px;
+ }
